@@ -5,11 +5,10 @@ import java.util.Arrays;
 public class MovieApp {
     public static void main(String[] args) {
 
-        int intArr1[] = {};
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of an array: ");
         int n = sc.nextInt();
-        intArr1 = new int[n];
+        int[] intArr1 = new int[n];
         System.out.println("Enter array element: ");
         for(int i = 0; i<n; i++){
             intArr1[i] = sc.nextInt();
